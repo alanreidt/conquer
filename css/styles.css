@@ -394,19 +394,19 @@ button.button {
    padding-bottom: 90px;
 }
 
-.blog-item__content {
+.blog-entry__content {
    padding: 20px 27px 27px;
 }
 
-.blog-item__title {
+.blog-entry__title {
    margin-bottom: 35px;
 }
 
-.blog-item__button-wrapper {
+.blog-entry__button-wrapper {
    text-align: right;
 }
 
-.blog-item__button:hover {
+.blog-entry__button:hover {
    color: #666;
 }
 
