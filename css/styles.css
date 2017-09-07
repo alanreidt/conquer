@@ -449,17 +449,17 @@ a.button {
    margin: auto;
 }
 
-.unnamed__content {
+.testimonial-article__content {
    padding: 20px 30px 30px;
 }
 
-.unnamed__title {
+.testimonial-article__title {
    margin-top: 30px;
    margin-bottom: 10px;
    text-align: left;
 }
 
-.unnamed__button-wrapper {
+.testimonial-article__button-wrapper {
    text-align: left;
 }
 
