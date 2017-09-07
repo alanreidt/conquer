@@ -52,11 +52,6 @@ ul {
 
 a {
    text-decoration: none;
-   color: #337ab7;
-}
-
-a:hover {
-   color: #23527c;
 }
 
 [class*="__desc"],
@@ -158,6 +153,7 @@ a.button {
 }
 
 .button:hover {
+	color: #23527c;
    background-color: #e6e6e6;
 }
 
@@ -256,6 +252,16 @@ a.button {
 }
 
 .page__desc {}
+
+.page__link {
+   color: #337ab7;
+}
+
+.page__link:visited {}
+
+.page__link:hover {
+   color: #23527c;
+}
 
 /* SECTION */
 
