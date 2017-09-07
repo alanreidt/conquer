@@ -54,6 +54,8 @@ a {
    text-decoration: none;
 }
 
+/* COMMON STYLES */
+
 [class*="__desc"],
 .license {
    line-height: 1.6em;
@@ -159,7 +161,7 @@ a.button {
 
 /* FORM GROUP */
 
-.form-group {
+.form-control {
    width: 100%;
    padding: 8px 10px;
    font-family: inherit;
@@ -167,24 +169,20 @@ a.button {
    border: none;
 }
 
-.form-group::placeholder {
+.form-control::-webkit-input-placeholder {
    color: #000;
 }
 
-.form-group::-webkit-input-placeholder {
+.form-control:-ms-input-placeholder {
    color: #000;
 }
 
-.form-control::-ms-input-placeholder {
-   color: #000;
-}
-
-.form-group:-ms-input-placeholder {
-   color: #000;
-}
-
-.form-group::-moz-placeholder {
+.form-control::-moz-placeholder {
    opacity: 1;
+}
+
+.form-control::placeholder {
+   color: #000;
 }
 
 /* ARTICLES */
@@ -500,7 +498,7 @@ a.button {
    background-color: rgba(242, 242, 242, .4);
 }
 
-.contact-form__form-group:not(:last-of-type) {
+.contact-form__form-control:not(:last-of-type) {
    margin-bottom: 13px;
 }
 
