@@ -132,12 +132,19 @@ a:hover {
 /* BUTTON */
 
 button.button {
+	font-family: inherit;
    cursor: pointer;
+}
+
+a.button {
+	text-decoration: none;
 }
 
 .button {
    display: inline-block;
-   padding: 12px 30px;
+   vertical-align: middle;
+
+   padding: 11px 30px;
    font-size: 18px;
    color: #666;
    background-color: #fff;
@@ -490,8 +497,12 @@ button.button {
    resize: none;
 }
 
-.contact-form__button {
+.contact-form__button-wrapper {
    margin-top: 20px;
+   text-align: left;
+}
+
+.contact-form__button {
    color: #fff;
    background-color: #262628;
 }
