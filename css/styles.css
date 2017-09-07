@@ -93,11 +93,13 @@ a:hover {
 
 /* GRID */
 
+:root {
+	--grid-gap: 15px;
+}
+
 .row {
-   margin-right: -15px;
-   margin-left: -15px;
-   /*padding-top: 10px;*/
-   /*padding-bottom: 10px;*/
+   margin-right: calc(-1 * var(--grid-gap));
+   margin-left: calc(-1 * var(--grid-gap));
    font-size: 0;
 }
 
@@ -105,11 +107,12 @@ a:hover {
    margin-bottom: 40px;
 }
 
-[class^="col-"] {
+.col {
    display: inline-block;
-   padding-right: 15px;
-   padding-left: 15px;
    vertical-align: top;
+
+   padding-right: var(--grid-gap);
+   padding-left: var(--grid-gap);
    font-size: var(--base-font-size);
 }
 
@@ -277,6 +280,8 @@ a.button {
    position: fixed;
    top: 0; left: 0;
    width: 100%;
+   z-index: 800;
+
    padding-top: 10px;
    padding-bottom: 12px;
    font-size: 0;
@@ -291,6 +296,7 @@ a.button {
 
 .nav__item {
    display: inline-block;
+   vertical-align: middle;
 }
 
 .nav__item:not(:last-child) {
