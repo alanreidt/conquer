@@ -159,11 +159,13 @@ a.button {
    background-color: #e6e6e6;
 }
 
-/* FORM GROUP */
+/* FORM CONTROL */
 
 .form-control {
+	display: block;
    width: 100%;
    padding: 8px 10px;
+
    font-family: inherit;
    font-size: inherit;
    border: none;
