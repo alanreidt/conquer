@@ -158,7 +158,11 @@ a.button {
    border: 1px solid #ccc;
    border-radius: 10px;
    text-transform: capitalize;
-   transition: all .3s ease;
+
+   -webkit-transition: color .3s ease,
+						     background-color .3s ease;
+		     transition: color .3s ease,
+							  background-color .3s ease;
 }
 
 .button:hover {
