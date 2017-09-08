@@ -56,13 +56,6 @@ a {
 
 /* COMMON STYLES */
 
-.container {
-	max-width: 1170px;
-	margin: auto;
-	padding-right: 15px;
-	padding-left: 15px;
-}
-
 [class*="__desc"],
 .license {
 	line-height: 1.6em;
@@ -306,6 +299,13 @@ a.button {
 
 .page {
 	/*padding-top: 60px;*/
+}
+
+.page__container {
+	max-width: 1170px;
+	margin: auto;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .page__title {
