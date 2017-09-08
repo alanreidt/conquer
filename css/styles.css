@@ -10,16 +10,6 @@
 	--site-padding: 15px;
 }
 
-/* WEB FONTS */
-
-@font-face {
-	font-family: 'Conquer';
-	src: url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
-	url('../fonts/glyphicons-halflings-regular.woff') format('woff');
-	font-style: normal;
-	font-weight: 400;
-}
-
 /* SETUP */
 
 html {
@@ -300,10 +290,6 @@ a.button {
 
 /* PAGE */
 
-.page {
-	/*padding-top: 60px;*/
-}
-
 .page__container {
 	max-width: 1170px;
 }
@@ -314,8 +300,6 @@ a.button {
 	text-shadow: 2px 2px #000;
 	text-transform: capitalize;
 }
-
-.page__desc {}
 
 .page__link {
 	color: #337ab7;
@@ -349,6 +333,7 @@ a.button {
 .hero {
 	padding-top: 300px;
 	padding-bottom: 240px;
+
 	text-align: center;
 	color: #fff;
 	background: url('../img/bg-hero-1.jpg') #9c6f60 no-repeat center bottom / cover fixed;
@@ -363,6 +348,7 @@ a.button {
 
 .hero__subtitle {
 	margin: 0;
+
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 1.15;
@@ -453,6 +439,7 @@ a.button {
 .services {
 	padding-top: 80px;
 	padding-bottom: 80px;
+
 	color: #fff;
 	background: url('../img/bg-services.jpg') #497da2 no-repeat center / cover fixed;
 	text-align: center;
@@ -500,6 +487,7 @@ a.button {
 .contact-form {
 	padding-top: 90px;
 	padding-bottom: 80px;
+
 	color: #000;
 	background: url('../img/bg-contact-form.jpg') #715950 no-repeat center / cover fixed;
 	text-align: center;
