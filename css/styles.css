@@ -280,6 +280,23 @@ a.button {
 	text-align: center;
 }
 
+/* SECTION */
+
+.section__container {
+	max-width: 750px;
+	margin: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.section__title {
+	font-size: 36px;
+}
+
+.section__desc {
+	font-size: 16px;
+}
+
 
 /* =========================================================
 	LAYOUT
@@ -307,23 +324,6 @@ a.button {
 
 .page__link:hover {
 	color: #23527c;
-}
-
-/* SECTION */
-
-.section__container {
-	max-width: 750px;
-	margin: auto;
-	padding-right: 15px;
-	padding-left: 15px;
-}
-
-.section__title {
-	font-size: 36px;
-}
-
-.section__desc {
-	font-size: 16px;
 }
 
 /* TOPLINE */
@@ -456,7 +456,7 @@ a.button {
 /* SERVICES */
 
 .services {
-	padding-top: 50px;
+	padding-top: 80px;
 	padding-bottom: 80px;
 	color: #fff;
 	background: url('../img/bg-services.jpg') #497da2 no-repeat center / cover fixed;
@@ -464,6 +464,7 @@ a.button {
 }
 
 .services__title {
+	margin-top: 0;
 	margin-bottom: 20px;
 	text-shadow: 2px 2px #aaa;
 }
@@ -502,7 +503,7 @@ a.button {
 /* CONTACT FORM */
 
 .contact-form {
-	padding-top: 60px;
+	padding-top: 90px;
 	padding-bottom: 80px;
 	color: #000;
 	background: url('../img/bg-contact-form.jpg') #715950 no-repeat center / cover fixed;
@@ -510,13 +511,15 @@ a.button {
 }
 
 .contact-form__title {
+	margin-top: 0;
 	margin-bottom: 30px;
 	color: #fff;
 }
 
 .contact-form__desc {
-	padding: 20px 50px;
+	margin-top: 0;
 	margin-bottom: 20px;
+	padding: 20px 50px;
 }
 
 .contact-form__background {
@@ -552,24 +555,29 @@ a.button {
 /* LICENSE */
 
 .license {
-	padding-top: 20px;
-	padding-bottom: 40px;
+	padding-top: 50px;
+	padding-bottom: 55px;
+
 	font-style: italic;
 	background-color: #fff;
 	text-align: center;
 }
 
 .license__title {
+	margin-top: 0;
+	margin-bottom: 30px;
+
 	font-size: 32px;
 	font-weight: 400;
 	color: #666;
 }
 
 .license__desc {
+	margin: 0;
 	color: #999;
 }
 
-/* LICENSE END*/
+/* LICENSE END */
 
 .footer__divider {
 	border-bottom: 1px solid #eee;
