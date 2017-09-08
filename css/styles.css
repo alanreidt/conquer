@@ -186,6 +186,37 @@ a.button {
 	color: #000;
 }
 
+/* CONTACT FORM */
+
+.contact-form__background {
+	border-radius: 5px;
+	background-color: rgba(242, 242, 242, .4);
+}
+
+.contact-form__form-control:not(:last-of-type) {
+	margin-bottom: 13px;
+}
+
+.contact-form__textarea {
+	height: 131px;
+	resize: none;
+}
+
+.contact-form__button-wrapper {
+	margin-top: 20px;
+	text-align: left;
+}
+
+.contact-form__button {
+	color: #fff;
+	background-color: #262628;
+}
+
+.contact-form__button:hover,
+.contact-form__button:focus {
+	color: #333;
+}
+
 /* NAVIGATION */
 
 .nav {
@@ -497,9 +528,9 @@ a.button {
 	text-align: left;
 }
 
-/* CONTACT FORM */
+/* CONTACTS */
 
-.contact-form {
+.contacts {
 	padding-top: 90px;
 	padding-bottom: 80px;
 
@@ -508,45 +539,16 @@ a.button {
 	text-align: center;
 }
 
-.contact-form__title {
+.contacts__title {
 	margin-top: 0;
 	margin-bottom: 30px;
 	color: #fff;
 }
 
-.contact-form__desc {
+.contacts__desc {
 	margin-top: 0;
 	margin-bottom: 20px;
 	padding: 20px 50px;
-}
-
-.contact-form__background {
-	border-radius: 5px;
-	background-color: rgba(242, 242, 242, .4);
-}
-
-.contact-form__form-control:not(:last-of-type) {
-	margin-bottom: 13px;
-}
-
-.contact-form__textarea {
-	height: 131px;
-	resize: none;
-}
-
-.contact-form__button-wrapper {
-	margin-top: 20px;
-	text-align: left;
-}
-
-.contact-form__button {
-	color: #fff;
-	background-color: #262628;
-}
-
-.contact-form__button:hover,
-.contact-form__button:focus {
-	color: #333;
 }
 
 /* FOOTER */

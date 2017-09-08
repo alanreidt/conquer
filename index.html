@@ -17,7 +17,7 @@
 				<li class="nav__item"><a href="#hero" class="nav__link">Homepage</a></li>
 				<li class="nav__item"><a href="#features" class="nav__link">About us</a></li>
 				<li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
-				<li class="nav__item"><a href="#contact-form" class="nav__link">Contact</a></li>
+				<li class="nav__item"><a href="#contacts" class="nav__link">Contact</a></li>
 				<li class="nav__item"><a href="#" class="nav__link">External</a></li>
 			</ul>
 		</nav>
@@ -252,26 +252,26 @@
 			</div>
 		</section>
 
-		<section class="section  contact-form" id="contact-form">
-			<form class="section__container">
-				<h2 class="page__title  section__title  contact-form__title">Contact form</h2>
-				<p class="section__desc  contact-form__desc  contact-form__background">
+		<section class="section  contacts" id="contacts">
+			<div class="section__container">
+				<h2 class="page__title  section__title  contacts__title">Contact form</h2>
+				<p class="section__desc  contacts__desc  contact-form__background">
 					Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. Etiam a mi quis arcu varius condimentum.
 				</p>
-				<div class="row">
+				<form class="row  contact-form" name="contact-form-contacts" action="#">
 					<div class="col  col-6">
-						<input type="text" name="name" class="form-control  contact-form__form-control  contact-form__background" id="input-name_contact-form" placeholder="Name" maxlength="25" required>
-						<input type="email" name="email" class="form-control  contact-form__form-control  contact-form__background" id="input-email_contact-form" placeholder="Email" maxlength="30" required>
-						<input type="text" name="subject" class="form-control  contact-form__form-control  contact-form__background" id="input-subject_contact-form" placeholder="Subject" maxlength="30" required>
+						<input type="text" name="name-input-contacts" class="form-control  contact-form__form-control  contact-form__background" placeholder="Name" maxlength="25" required>
+						<input type="email" name="email-input-contacts" class="form-control  contact-form__form-control  contact-form__background" placeholder="Email" maxlength="30" required>
+						<input type="text" name="subject-input-contacts" class="form-control  contact-form__form-control  contact-form__background" placeholder="Subject" maxlength="60">
 					</div>
 					<div class="col  col-6">
-						<textarea name="message" class="form-control  contact-form__form-control  contact-form__textarea  contact-form__background" id="textarea-message_contact-form" minlength="20" maxlength="180" placeholder="Your message here..." required></textarea>
+						<textarea name="message-textarea-contacts" class="form-control  contact-form__form-control  contact-form__textarea  contact-form__background" minlength="20" maxlength="700" placeholder="Your message here..." required></textarea>
 						<div class="contact-form__button-wrapper">
 							<button type="submit" class="button  contact-form__button">Send</button>
 						</div>
 					</div>
-				</div>
-			</form>
+				</form>
+			</div>
 		</section>
 	</main>
 
