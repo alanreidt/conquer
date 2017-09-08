@@ -34,6 +34,13 @@ img {
 	max-width: 100%;
 }
 
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+	outline: 0;
+	box-shadow: 0 0 0 3px #54a2c7;
+}
 
 /* COMMON STYLES */
 
@@ -144,7 +151,8 @@ a.button {
 							  background-color .3s ease;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
 	color: #23527c;
 	background-color: #e6e6e6;
 }
@@ -217,7 +225,8 @@ a.button {
 							  background-color .3s ease;
 }
 
-.nav__link:hover {
+.nav__link:hover,
+.nav__link:focus {
 	color: #fff;
 	background-color: #49505f;
 }
@@ -307,7 +316,8 @@ a.button {
 
 .page__link:visited {}
 
-.page__link:hover {
+.page__link:hover,
+.page__link:focus {
 	color: #23527c;
 }
 
@@ -383,7 +393,8 @@ a.button {
 	text-align: center;
 }
 
-.feature__button:hover {
+.feature__button:hover,
+.feature__button:focus {
 	color: #fff;
 }
 
@@ -391,7 +402,8 @@ a.button {
 	background-color: #178a27;
 }
 
-.feature__button_green:hover {
+.feature__button_green:hover,
+.feature__button_green:focus {
 	background-color: #449d44;
 }
 
@@ -399,7 +411,8 @@ a.button {
 	background-color: #1686c1;
 }
 
-.feature__button_blue:hover {
+.feature__button_blue:hover,
+.feature__button_blue:focus {
 	background-color: #31b0d5;
 }
 
@@ -407,7 +420,8 @@ a.button {
 	background-color: #852406;
 }
 
-.feature__button_red:hover {
+.feature__button_red:hover,
+.feature__button_red:focus {
 	background-color: #c9302c;
 }
 
@@ -430,7 +444,8 @@ a.button {
 	text-align: right;
 }
 
-.blog-entry__button:hover {
+.blog-entry__button:hover,
+.blog-entry__button:focus {
 	color: #666;
 }
 
@@ -529,7 +544,8 @@ a.button {
 	background-color: #262628;
 }
 
-.contact-form__button:hover {
+.contact-form__button:hover,
+.contact-form__button:focus {
 	color: #333;
 }
 
