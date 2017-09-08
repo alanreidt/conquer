@@ -43,15 +43,6 @@ img {
 	max-width: 100%;
 }
 
-ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-
-a {
-	text-decoration: none;
-}
 
 /* COMMON STYLES */
 
@@ -216,6 +207,7 @@ a.button {
 	line-height: 1.15;
 	border: 1px solid #646d7c;
 	color: #fff;
+	text-decoration: none;
 	text-transform: capitalize;
 
 	-webkit-transition: color .3s ease,
