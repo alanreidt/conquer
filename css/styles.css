@@ -7,6 +7,7 @@
 :root {
 	--base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	--base-font-size: 14px;
+	--site-padding: 15px;
 }
 
 /* WEB FONTS */
@@ -48,6 +49,15 @@ img {
 
 .spacer {
 	height: 600px;
+}
+
+/* container */
+
+.page__container,
+.section__container {
+	margin: auto;
+	padding-right: var(--site-padding);
+	padding-left: var(--site-padding);
 }
 
 /* hide semantic elements */
@@ -185,8 +195,9 @@ a.button {
 }
 
 .nav__container {
-	margin: 0;
-	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
 	list-style-type: none;
 }
 
@@ -271,9 +282,6 @@ a.button {
 
 .section__container {
 	max-width: 750px;
-	margin: auto;
-	padding-right: 15px;
-	padding-left: 15px;
 }
 
 .section__title {
@@ -298,9 +306,6 @@ a.button {
 
 .page__container {
 	max-width: 1170px;
-	margin: auto;
-	padding-right: 15px;
-	padding-left: 15px;
 }
 
 .page__title {
@@ -337,13 +342,6 @@ a.button {
 	padding-top: 10px;
 	padding-bottom: 12px;
 	text-align: center;
-}
-
-.topline__container {
-	max-width: 930px;
-	margin: auto;
-	padding-right: 15px;
-	padding-left: 15px;
 }
 
 /* HERO */
@@ -552,12 +550,8 @@ a.button {
 /* LICENSE */
 
 .license {
-	padding-top: 50px;
-	padding-bottom: 55px;
-
 	font-style: italic;
 	background-color: #fff;
-	text-align: center;
 }
 
 .license__title {
@@ -578,7 +572,14 @@ a.button {
 
 /* LICENSE END */
 
-.footer__divider {
+.footer {
+	text-align: center;
+}
+
+.footer__license {
+	padding-top: 50px;
+	padding-bottom: 55px;
+
 	border-bottom: 1px solid #eee;
 }
 
@@ -589,5 +590,4 @@ a.button {
 	font-size: 12px;
 	line-height: 1.6;
 	color: #666;
-	text-align: center;
 }
