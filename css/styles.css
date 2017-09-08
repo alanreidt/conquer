@@ -19,7 +19,7 @@
 	font-weight: 400;
 }
 
-/* RESET */
+/* SETUP */
 
 html {
 	box-sizing: border-box;
@@ -37,7 +37,6 @@ body {
 	font-size: var(--base-font-size);
 	color: #333;
 	background-color: #fff;
-	/*line-height: 1.42857143;*/
 }
 
 img {
@@ -56,13 +55,8 @@ a {
 
 /* COMMON STYLES */
 
-[class*="__desc"],
-.license {
-	line-height: 1.6em;
-}
-
 .spacer {
-	/*height: 600px;*/
+	height: 600px;
 }
 
 /* hide semantic elements */
@@ -146,6 +140,7 @@ a.button {
 
 	padding: 11px 30px;
 	font-size: 18px;
+	line-height: 1.15;
 	color: #666;
 	background-color: #fff;
 	border: 1px solid #ccc;
@@ -172,6 +167,7 @@ a.button {
 
 	font-family: inherit;
 	font-size: inherit;
+	line-height: 1.4;
 	border: none;
 }
 
@@ -217,6 +213,7 @@ a.button {
 	padding: 12px 25px;
 
 	font-size: 20px;
+	line-height: 1.15;
 	border: 1px solid #646d7c;
 	color: #fff;
 	text-transform: capitalize;
@@ -255,9 +252,14 @@ a.button {
 	margin-bottom: 1em;
 
 	font-size: 20px;
+	line-height: 1.15;
 	color: #666;
 	text-align: center;
 	text-transform: capitalize;
+}
+
+.article__desc {
+	line-height: 1.6;
 }
 
 .article__paragraph {
@@ -288,6 +290,7 @@ a.button {
 
 .section__desc {
 	font-size: 16px;
+	line-height: 1.6;
 }
 
 
@@ -310,6 +313,7 @@ a.button {
 
 .page__title {
 	font-weight: 400;
+	line-height: 1.15;
 	text-shadow: 2px 2px #000;
 	text-transform: capitalize;
 }
@@ -371,6 +375,7 @@ a.button {
 	margin: 0;
 	font-size: 24px;
 	font-weight: 400;
+	line-height: 1.15;
 	text-shadow: 1px 1px #000;
 	text-transform: capitalize;
 }
@@ -568,12 +573,14 @@ a.button {
 	margin-bottom: 30px;
 
 	font-size: 32px;
+	line-height: 1.15;
 	font-weight: 400;
 	color: #666;
 }
 
 .license__desc {
 	margin: 0;
+	line-height: 1.6;
 	color: #999;
 }
 
@@ -586,7 +593,9 @@ a.button {
 .footer__copyright {
 	margin-top: 26px;
 	margin-bottom: 26px;
+
 	font-size: 12px;
+	line-height: 1.6;
 	color: #666;
 	text-align: center;
 }
