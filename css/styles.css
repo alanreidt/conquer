@@ -34,6 +34,10 @@ img {
 	max-width: 100%;
 }
 
+textarea {
+	resize: none;
+}
+
 a:focus,
 button:focus,
 input:focus,
@@ -197,9 +201,8 @@ a.button {
 	margin-bottom: 13px;
 }
 
-.contact-form__textarea {
+.contact-form__message {
 	height: 131px;
-	resize: none;
 }
 
 .contact-form__button-wrapper {
