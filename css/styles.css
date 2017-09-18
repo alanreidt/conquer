@@ -270,8 +270,9 @@ a.button {
 
 .nav__link {
 	display: inline-block;
-	padding: 12px 25px;
+	vertical-align: middle;
 
+	padding: 12px 25px;
 	font-size: 20px;
 	line-height: 1.15;
 	border: 1px solid #646d7c;
