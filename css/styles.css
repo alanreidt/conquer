@@ -52,9 +52,9 @@ textarea:focus {
 	height: 600px;
 }
 
-/* container */
+/* %container */
 
-.page__container,
+.container,
 .section__container {
 	margin: auto;
 	padding-right: var(--site-padding);
@@ -83,6 +83,32 @@ textarea:focus {
 /* =========================================================
 	MODULE
 	========================================================= */
+
+/* CONTAINER */
+
+.container {
+	max-width: 1170px;
+}
+
+/* PAGE */
+
+.page__title {
+	font-weight: 400;
+	line-height: 1.15;
+	text-shadow: 2px 2px #000;
+	text-transform: capitalize;
+}
+
+.page__link {
+	color: #337ab7;
+}
+
+.page__link:visited {}
+
+.page__link:hover,
+.page__link:focus {
+	color: #23527c;
+}
 
 /* GRID */
 
@@ -330,30 +356,6 @@ a.button {
 /* =========================================================
 	LAYOUT
 	========================================================= */
-
-/* PAGE */
-
-.page__container {
-	max-width: 1170px;
-}
-
-.page__title {
-	font-weight: 400;
-	line-height: 1.15;
-	text-shadow: 2px 2px #000;
-	text-transform: capitalize;
-}
-
-.page__link {
-	color: #337ab7;
-}
-
-.page__link:visited {}
-
-.page__link:hover,
-.page__link:focus {
-	color: #23527c;
-}
 
 /* TOPLINE */
 
