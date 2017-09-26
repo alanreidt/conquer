@@ -5,7 +5,7 @@
 /* VARIABLES */
 
 :root {
-	--base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	--main-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	--base-font-size: 14px;
 	--site-padding: 15px;
 }
@@ -24,7 +24,7 @@ html {
 
 body {
 	margin: 0;
-	font-family: var(--base-font-family);
+	font-family: var(--main-font-family);
 	font-size: var(--base-font-size);
 	color: #333;
 	background-color: #fff;
@@ -252,7 +252,7 @@ a.button {
 	font-size: 0;
 }
 
-.nav__container {
+.nav__content {
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-left: 0;
