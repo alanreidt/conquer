@@ -259,14 +259,14 @@
 					Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. Etiam a mi quis arcu varius condimentum.
 				</p>
 
-				<form class="row  contact-form" name="contact-form-contacts" action="#">
+				<form class="row  contact-form" name="contacts-form" action="#">
 					<div class="col  col-6">
-						<input class="form-control  contact-form__form-control  contact-form__background" type="text" name="name-input-contacts" placeholder="Name" maxlength="25" required>
-						<input class="form-control  contact-form__form-control  contact-form__background" type="email" name="email-input-contacts" placeholder="Email" maxlength="30" required>
-						<input class="form-control  contact-form__form-control  contact-form__background" type="text" name="subject-input-contacts" placeholder="Subject" maxlength="60">
+						<input class="form-control  contact-form__form-control  contact-form__background" type="text" name="name" placeholder="Name" maxlength="25" spellcheck="true" inputmode="latin-name" autocomplete="given-name" required>
+						<input class="form-control  contact-form__form-control  contact-form__background" type="email" name="email" placeholder="Email" maxlength="30" spellcheck="false" autocomplete="email" required>
+						<input class="form-control  contact-form__form-control  contact-form__background" type="text" name="subject" placeholder="Subject" maxlength="60" spellcheck="true" inputmode="latin-prose">
 					</div>
 					<div class="col  col-6">
-						<textarea class="form-control  contact-form__form-control  contact-form__message  contact-form__background" name="message-textarea-contacts" minlength="20" maxlength="700" placeholder="Your message here..." required></textarea>
+						<textarea class="form-control  contact-form__form-control  contact-form__message  contact-form__background" name="message" minlength="20" maxlength="700" placeholder="Your message here..." spellcheck="true" inputmode="latin-prose" required></textarea>
 						<div class="contact-form__button-wrapper">
 							<button class="button  contact-form__button" type="submit">Send</button>
 						</div>
