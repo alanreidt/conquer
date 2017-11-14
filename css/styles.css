@@ -92,6 +92,10 @@ textarea:focus {
 
 /* PAGE */
 
+.page {
+	padding-top: var(--topline-height);
+}
+
 .page__title {
 	font-weight: 400;
 	line-height: 1.15;
@@ -360,10 +364,15 @@ a.button {
 
 /* TOPLINE */
 
+:root {
+	--topline-height: 71px;
+}
+
 .topline {
 	position: fixed;
 	top: 0; left: 0;
 	width: 100%;
+	height: var(--topline-height);
 	z-index: 800;
 
 	background-color: #383e4c;
@@ -378,12 +387,19 @@ a.button {
 /* HERO */
 
 .hero {
-	padding-top: 300px;
-	padding-bottom: 240px;
+	display: table;
+	width: 100%;
+
+	height: 600px;
 
 	text-align: center;
 	color: #fff;
 	background: url('../img/bg-hero-1.jpg') #9c6f60 no-repeat center bottom / cover fixed;
+}
+
+.hero__content {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .hero__title {
