@@ -3,13 +3,13 @@
 <head>
 	<title>Conquer template</title>
 	<meta charset="UTF-8">
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
 </head>
 <body class="page">
-	<header class="topline">
+	<header class="topline" id="topline">
 		<nav class="nav  topline__nav">
 			<h2 class="visually-hidden">Site navigation</h2>
 
@@ -18,10 +18,19 @@
 				<li class="nav__item"><a href="#features" class="nav__link">About us</a></li>
 				<li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
 				<li class="nav__item"><a href="#contacts" class="nav__link">Contact</a></li>
-				<li class="nav__item"><a href="#" class="nav__link">External</a></li>
+				<li class="nav__item"><a href="#" class="nav__link" target="_blank">External</a></li>
 			</ul>
 		</nav>
 	</header>
+
+	<button class="mobile-menu" id="mobile-menu">
+		<div class="icon-hamburger">
+			<span class="icon-hamburger__stripe"></span>
+			<span class="icon-hamburger__stripe  icon-hamburger__stripe_rotating"></span>
+			<span class="icon-hamburger__stripe  icon-hamburger__stripe_rotating"></span>
+			<span class="icon-hamburger__stripe  icon-hamburger__stripe_bottom"></span>
+		</div>
+	</button>
 
 	<main class="page__contents">
 		<header class="hero" id="hero">
@@ -36,7 +45,7 @@
 				<h2 class="visually-hidden">Features</h2>
 
 				<div class="row">
-					<div class="col  col-4">
+					<div class="col  col-4  col-s-12">
 						<section class="article  feature">
 							<div class="article__img-wrapper">
 								<img src="img/img-features-1.jpg" alt="Forest image" class="article__img">
@@ -55,7 +64,7 @@
 						</section>
 					</div>
 
-					<div class="col  col-4">
+					<div class="col  col-4  col-s-12">
 						<section class="article  feature">
 							<div class="article__img-wrapper">
 								<img src="img/img-features-2.jpg" alt="Bridge image" class="article__img">
@@ -74,7 +83,7 @@
 						</section>
 					</div>
 
-					<div class="col  col-4">
+					<div class="col  col-4  col-s-12">
 						<section class="article  feature">
 							<div class="article__img-wrapper">
 								<img src="img/img-features-3.jpg" alt="Rails image" class="article__img">
@@ -101,7 +110,7 @@
 				<h2 class="visually-hidden">Blog</h2>
 
 				<div class="row">
-					<div class="col  col-6">
+					<div class="col  col-6  col-s-12">
 						<article class="article  blog-entry">
 							<div class="article__img-wrapper">
 								<img src="img/img-blog-1.jpg" alt="Hot tea image" class="article__img">
@@ -119,7 +128,7 @@
 						</article>
 					</div>
 
-					<div class="col  col-6">
+					<div class="col  col-6  col-s-12">
 						<article class="article  blog-entry">
 							<div class="article__img-wrapper">
 								<img src="img/img-blog-2.jpg" alt="Sunset image" class="article__img">
@@ -157,7 +166,7 @@
 				<h2 class="visually-hidden">Testimonials</h2>
 
 				<div class="row">
-					<div class="col  col-3">
+					<div class="col  col-3  col-md-6  col-xs-12">
 						<section class="article  testimonial">
 							<div class="article__img-wrapper">
 								<img src="img/img-testimonials-1.jpg" alt="Lake image" class="article__img">
@@ -173,7 +182,7 @@
 						</section>
 					</div>
 
-					<div class="col  col-3">
+					<div class="col  col-3  col-md-6  col-xs-12">
 						<section class="article  testimonial">
 							<div class="article__img-wrapper">
 								<img src="img/img-testimonials-2.jpg" alt="Mountains image" class="article__img">
@@ -192,7 +201,7 @@
 						</section>
 					</div>
 
-					<div class="col  col-3">
+					<div class="col  col-3  col-md-6  col-xs-12">
 						<section class="article  testimonial">
 							<div class="article__img-wrapper">
 								<img src="img/img-testimonials-3.jpg" alt="Bank image" class="article__img">
@@ -208,7 +217,7 @@
 						</section>
 					</div>
 
-					<div class="col  col-3">
+					<div class="col  col-3  col-md-6  col-xs-12">
 						<section class="article  testimonial">
 							<div class="article__img-wrapper">
 								<img src="img/img-testimonials-4.jpg" alt="Autumn image" class="article__img">
@@ -262,12 +271,12 @@
 				</p>
 
 				<form class="row  contact-form" name="contacts-form" action="#">
-					<div class="col  col-6">
+					<div class="col  col-6  col-s-12">
 						<input class="form-control  contact-form__form-control  contact-form__background" type="text" name="fname" placeholder="Name" maxlength="25" spellcheck="true" autocorrect="off" inputmode="latin-name" autocomplete="given-name" required>
 						<input class="form-control  contact-form__form-control  contact-form__background" type="email" name="email" placeholder="Email" maxlength="30" spellcheck="false" autocomplete="email" required>
 						<input class="form-control  contact-form__form-control  contact-form__background" type="text" name="subject" placeholder="Subject" maxlength="60" spellcheck="true" inputmode="latin-prose">
 					</div>
-					<div class="col  col-6">
+					<div class="col  col-6  col-s-12">
 						<textarea class="form-control  contact-form__form-control  contact-form__message  contact-form__background" name="message" minlength="20" maxlength="700" placeholder="Your message here..." spellcheck="true" inputmode="latin-prose" required></textarea>
 						<div class="contact-form__button-wrapper">
 							<button class="button  contact-form__button" type="submit">Send</button>
@@ -291,5 +300,25 @@
 	</footer>
 
 	<div class="spacer"></div>
+
+	<script>
+		(function() {
+			var menu = document.querySelector('#mobile-menu');
+			var topline = document.querySelector('#topline');
+
+			var main = document.querySelector('.page__contents');
+			var footer = document.querySelector('.footer');
+
+			menu.addEventListener('click', function(evt) {
+				this.classList.toggle('mobile-menu_is-active');
+				topline.classList.toggle('topline_is-active');
+
+				main.classList.toggle('page__contents_is-inactive');
+				footer.classList.toggle('footer_is-inactive');
+
+				evt.stopPropagation();
+			});
+		})();
+	</script>
 </body>
 </html>
